@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    
+<link rel ="stylesheet" href="CSS\calculator.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="JAVA\calculator.js"></script>
+
+<header>
+    <nav class="navbar">
+    <!--BUSINESS NAME-->
+    <div class="name">Opal Bank Ltd</div>
+        
+    <!--Navigation Menu-->
+    <ul class="nav-links">
+    <div class="menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="calculator.html">Mortgage Calculator</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="faq.html">FAQ's</a></li>
+    </div>
+    </ul>
+    </nav>
+</header>
+
+<div class="mortgage-description">
+	<img src="pictures\Mortgage.jpg">
+	<h1 class="title">Mortgage Calculator</h1>
+</div>
+	
+<p class="description">Buying your first home? Looking to move? Our mortgage calculator helps you calculate your monthly payments and plan the right loan for your budget. Opal Bank is here to help. </p>
+
+
+
+
+
+
+
+
+<!--CALCULATOR FORM--!>
+
+<section>
+	<div class="calculator-container">
+		<br>
+		<h2 class="subtitles">Enter your information below and discover your monthly payment plan! </h2>
+
+		
+		<br><div class="calculator-input">
+			<label class="label-text" for="loanAmount">Loan Amount</label> <br> <!--INTPUT LABEL--!>
+			<input class="input" id="loanAmount" type="number" />    <!--INPUT & TYPE--!>
+		</div>
+			<br>
+		<div class="calculator-input">	
+			<label class="label-text" for="loanTerm">Loan Term (in years)</label> <br>
+			<input class="input" id="loanTerm" type="number" />
+		</div>
+			<br>
+		<div class="calculator-input">
+			<label class="label-text" for="monthlyIncome">Monthly Income</label> <br>
+			<input class="input" id="monthlyIncome" type="number" />
+		</div> <br> <br>
+		<button class="button"  id="button">Calculate</button> <br>
+	</div>
+</section>
+
+<br>
+<div class="results">
+	<p id="result"></p>
+	<p id="eligibility"></p>
+</div>
+
+<footer class="footer">
+	<img src="pictures\cards.png" class="img-left"> 
+	<div class="centered">
+		<h2 class="footer-text">Apply for an Opal Bank account and enjoy the best of our services!</h2><br>
+		<button class="footer-button">
+		<a href="contact.html" class="link">Apply Now</a></button>
+	</div>
+	<img src="pictures\phone.png" class="img-right">
+	<br>
+</footer>
+
+</html>

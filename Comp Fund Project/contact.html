@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    
+<link rel ="stylesheet" href="CSS\contact.css">
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="JAVA\validation.js"></script>
+
+<header>
+    <nav class="navbar">
+    <!--BUSINESS NAME-->
+    <div class="name">Opal Bank Ltd</div>
+        
+    <!--Navigation Menu-->
+    <ul class="nav-links">
+    <div class="menu">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="calculator.html">Mortgage Calculator</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="faq.html">FAQ's</a></li>
+    </div>
+    </ul>
+    </nav>
+</header>
+
+<br><br>
+
+<body>
+	<div class="contact-form">
+		<br>
+		<h2 class="subtitles">CONTACT US</h2>
+		<form id="contactForm">
+		<br><div class="contact-input">
+			<label class="label-text" for="name" >Name</label> <br> <!--INTPUT LABEL--!>
+			<input class="input" id="name" type="text" placeholder="Enter your name" />    <!--INPUT & TYPE--!>
+		</div>
+			<br>
+		<div class="contact-input">	
+			<label class="label-text" for="email" >Email</label> <br>
+			<input class="input" id="email" type="email" placeholder="Enter your email" />
+		</div>
+			<br>
+		<div class="contact-input">	
+			<label class="label-text" for="subject" >Subject</label> <br>
+			<select class="subject" id="subject">
+				<option value="savings" class="input">Saving Acounts</option>
+				<option value="credit" class="input">Credit & Debit Accounts</option>
+				<option value="business" class="input">Business Accounts</option>
+				<option value="loans" class="input">Loans</option>
+				<option value="other" class="input">Other</option>
+			</select>
+		</div>
+			<br>
+		<div class="contact-input">
+			<label class="label-text" for="message" >Message</label> <br>
+			<input class="message" id="message" type="text" placeholder="Enter your message"/>
+		</div> <br>
+		</form>
+		
+		<button class="button" id="button">Submit</button>
+		<br><br>
+	</div>
+</body>
+
+<footer class="footer">
+	<img src="pictures\cards.png" class="img-left"> 
+	<div class="centered">
+		<h2 class="footer-text">Apply for an Opal Bank account and enjoy the best of our services!</h2><br>
+		<button class="footer-button">
+		<a href="contact.html" class="link">Apply Now</a></button>
+	</div>
+	<img src="pictures\phone.png" class="img-right">
+	<br>
+</footer>
+
+</html>
